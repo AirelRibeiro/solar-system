@@ -1,3 +1,63 @@
-.App {
-  text-align: center;
+@import url('https://fontlibrary.org//face/semyon-soviet');
+@import url('https://fontlibrary.org//face/assailand');
+
+body {
+  background-image: url(./images/background.png);
+  background-size: conver;
 }
+
+.header {
+  color: azure;
+  text-align: center;
+  font-family: 'SemyonSovietRegular';
+  letter-spacing: .2rem;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.system {
+  color: azure;
+  text-align: center;
+  font-family: 'AzeriSansRegular';
+  letter-spacing: .2rem;
+}
+
+.planets {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.div-planet {
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+.name-planet {
+  text-align: center;
+  color: azure;
+  margin-bottom: 0;
+}
+
+.img-planet {
+  width: 130px;
+  height: 130px;
+}
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: azure;
+  text-align: center;
+  font-family: 'AzeriSansRegular';
+  letter-spacing: .2rem;
+}
+
+.infors-of-mission {
+  width: 30%;
+  margin: 10px auto;
+  border-radius: 50px;
+  background-image: url(./images/fundoP.png);
+  box-shadow: 10px 10px 10px 5px rgb(0, 0, 0);
+}
+
