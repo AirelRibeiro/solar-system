@@ -1,25 +1,26 @@
-@import url('https://fontlibrary.org//face/semyon-soviet');
-@import url('https://fontlibrary.org//face/assailand');
+@import 'https://fontlibrary.org//face/semyon-soviet' ;
+
+@import 'https://fontlibrary.org//face/assailand' ;
 
 body {
-  background-image: url(./images/background.png);
+  background-image: url('./images/background.png');
   background-size: conver;
 }
 
 .header {
   color: azure;
-  text-align: center;
-  font-family: 'SemyonSovietRegular';
-  letter-spacing: .2rem;
+  font-family: SemyonSovietRegular , cursive;
   font-size: 30px;
+  letter-spacing: 0.2rem;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .system {
   color: azure;
+  font-family: AzeriSansRegular , cursive;
+  letter-spacing: 0.2rem;
   text-align: center;
-  font-family: 'AzeriSansRegular';
-  letter-spacing: .2rem;
 }
 
 .planets {
@@ -33,31 +34,31 @@ body {
 }
 
 .name-planet {
-  text-align: center;
   color: azure;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .img-planet {
-  width: 130px;
   height: 130px;
+  width: 130px;
 }
 
 .missions {
+  color: azure;
   display: flex;
   flex-wrap: wrap;
+  font-family: AzeriSansRegular , cursive;
   justify-content: space-evenly;
-  color: azure;
+  letter-spacing: 0.2rem;
   text-align: center;
-  font-family: 'AzeriSansRegular';
-  letter-spacing: .2rem;
 }
 
 .infors-of-mission {
-  width: 30%;
-  margin: 10px auto;
+  background-image: url('./images/fundoP.png');
   border-radius: 50px;
-  background-image: url(./images/fundoP.png);
-  box-shadow: 10px 10px 10px 5px rgb(0, 0, 0);
+  box-shadow: 10px 10px 10px 5px black;
+  margin: 10px auto;
+  width: 30%;
 }
 
