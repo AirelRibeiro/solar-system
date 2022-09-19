@@ -4,7 +4,7 @@
 
 ## Descrição:
 
-<p align="justify" >Solar System foi desenvolvido durante o módulo Front-end da Trybe; ele objetivou desenvolver um modelo do sistema solar estruturado em uma página contendo seus planetas e as missões conhecidas a cada planeta. A estrutura da aplicação foi completamente montada utilizando componentes de classe React.</p>
+<p align="justify" >Solar System foi um projeto desenvolvido durante o módulo Front-end da Trybe; ele objetivou desenvolver um modelo do sistema solar estruturado em uma página contendo seus planetas e as missões conhecidas a cada planeta. A estrutura da aplicação foi completamente montada utilizando componentes de classe React.</p>
 
 ## Ferramentas utilizadas:
 
